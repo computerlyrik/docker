@@ -41,7 +41,7 @@ lxc.mount.entry = {{.HostsPath}} {{$ROOTFS}}/etc/hosts none bind,ro 0 0
 lxc.pts = 1024
 
 # disable the main console
-lxc.console = none
+#lxc.console = none
 
 # no controlling tty at all
 lxc.tty = 1
